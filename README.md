@@ -33,12 +33,20 @@ git clone <your-repository-url>
 cd <project-folder>
 ```
 
-### 3. Install Pillow
+### 3. Install the required package
 
-Tkinter usually comes with Python. Install Pillow using:
+The project includes a `requirements.txt` file containing the required dependency.
+
+Install it using:
 
 ```bash
-pip install pillow
+pip install -r requirements.txt
+```
+
+The `requirements.txt` file contains:
+
+```txt
+Pillow
 ```
 
 ## How to Run
@@ -65,14 +73,14 @@ For example:
 400,400
 ```
 
-Then click **Set**.
-
 The first value represents the **width** and the second value represents the **height**.
 
 ```text
 Width,Height
 400,400
 ```
+
+Then click **Set**.
 
 ### 3. Enter Watermark Text
 
@@ -146,6 +154,7 @@ means:
 Image-Resizer-Watermark/
 │
 ├── main.py
+├── requirements.txt
 └── README.md
 ```
 
